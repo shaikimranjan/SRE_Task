@@ -18,8 +18,8 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
-	
-	
+
+
 <distributionManagement>
         <repository>
                 <id>Sidgsrelease</id>
@@ -83,14 +83,14 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-		<plugin>
+                <plugin>
           <artifactId>maven-war-plugin</artifactId>
           <version>3.3.1</version>
-		  <configuration>
-			<failOnMissingWebXml>false</failOnMissingWebXml>        
-		  </configuration>
+                  <configuration>
+                        <failOnMissingWebXml>false</failOnMissingWebXml>
+                  </configuration>
         </plugin>
-	</plugins>
-			<finalName>raviproject</finalName>
+        </plugins>
+                        <finalName>raviproject</finalName>
   </build>
 </project>
