@@ -17,6 +17,20 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
+	
+	
+<distributionManagement>
+        <repository>
+                <id>Sidgsrelease</id>
+                <url>http://3.91.237.187:8081/repository/Sidgsrelease/</url>
+                <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+         </repository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
