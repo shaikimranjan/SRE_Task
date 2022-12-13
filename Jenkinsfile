@@ -29,7 +29,7 @@ node{
                         ],
                                 credentialsId: 'nexus3',
                                 groupId: 'in.ravi',
-                                nexusUrl: 'http://3.91.237.187:8081/repository/Sidgsrelease/',
+                                nexusUrl: 'http://54.221.191.23:8081/repository/Sidgsrelease/',
                                 nexusVersion: 'nexus3',
                                 repository: 'Sidgsrelease/',
                                 protocol: 'http',
