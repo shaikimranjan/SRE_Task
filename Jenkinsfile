@@ -23,13 +23,13 @@ node{
                         [
                                 artifactId: 'raviproject',
                                 classifier: '',
-                                file: 'target/raviproject.war',
-                                type: 'war'
+                                file: 'target/raviproject.jar',
+                                type: 'jar'
                                 ]
                         ],
                                 credentialsId: 'nexus3',
                                 groupId: 'in.ravi',
-                                nexusUrl:'http://3.6.38.101:8081/repository/Sidgsrelease/',
+                                nexusUrl:'http://3.83.234.3:8081/repository/Sidgsrelease/',
                                 nexusVersion: 'nexus3',
                                 repository: 'Sidgsrelease/',
                                 protocol: 'http',
