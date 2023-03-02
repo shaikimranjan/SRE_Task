@@ -21,8 +21,8 @@
 
 <distributionManagement>
         <repository>
-                <id>Sidgsrelease</id>
-                <url>http://3.83.234.3:8081/repository/Sidgsrelease/</url>
+                <id>task-maven</id>
+                <url>http://34.204.9.234:8081/repository/task-maven/</url>
                 <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
